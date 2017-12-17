@@ -47,12 +47,21 @@ type Todo @model {
 }
 ```
 
-Create a GraphQL Server using this schema and graphcool CLI. On the `todo-apollo-v2-react` folder run the following commands:
+## Create a GraphQL Server using this schema and graphcool CLI. On the `todo-apollo-v2-react` folder run the following commands:
 
 ```bash
 $ npm install -g graphcool
-$ graphcool push
-$ graphcool endpoints
+```
+
+## Create a local service definition in a new directory called `server`
+```bash
+graphcool init server
+```
+## Open `./server/types.graphql` and add the type definitions
+## Deploy the server
+```bash
+cd server
+graphcool deploy
 ```
 
 ### Replace client URIs 
