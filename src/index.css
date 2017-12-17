@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li.complete {
+  text-decoration: line-through;
+}
+
+a.inactive {
+  text-decoration: none;
+}
