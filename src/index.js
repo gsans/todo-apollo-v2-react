@@ -37,7 +37,7 @@ const muiTheme = getMuiTheme({
 ReactDOM.render(
   <ApolloProvider client={client}>
     <MuiThemeProvider muiTheme={muiTheme}>
-      <App/>
+      <App client={client}/>
     </MuiThemeProvider>
   </ApolloProvider>, 
   document.getElementById('root')

@@ -1,5 +1,6 @@
 # TodoApolloV2 React
 
+<img src="https://image.ibb.co/iVho4m/ezgif_com_video_to_gif_54.gif">
 <img src="https://image.ibb.co/dty5x6/ezgif_com_video_to_gif_53.gif">
 
 ## Technology stack
